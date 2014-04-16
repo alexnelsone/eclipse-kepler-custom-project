@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="nelsoneCustomProject.category1"
+            name="Nelsone Wizards">
+      </category>
+      <wizard
+            category="nelsoneCustomProject.category1"
+            class="nelsonecustomproject.NewWizard1"
+            icon="src/resources/images/icon.png"
+            id="nelsoneCustomProject.wizard1"
+            name="Nelsone Project">
+      </wizard>
+   </extension>
+
+</plugin>
